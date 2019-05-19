@@ -1382,6 +1382,17 @@ body {
     flex: auto!important;
   }
 }
+.jq-selectbox li:hover,
+.jq-selectbox li.selected {
+  background-color: #149dcc;
+  color: #ffffff;
+}
+.jq-selectbox .jq-selectbox__trigger-arrow {
+  border-top-color: contrast(currentColor, #000000, #ffffff, 30%);
+}
+.jq-selectbox:hover .jq-selectbox__trigger-arrow {
+  border-top-color: #149dcc;
+}
 .cid-r0Eq3qAlws .navbar {
   padding: .5rem 0;
   background: #cb1c67;
@@ -1772,7 +1783,7 @@ body {
   color: #c1c1c1 !important;
 }
 .cid-r0PoAAW3eg {
-  background-image: url("../../../assets/images/festa-7-1920x1280.png");
+  background-image: url("../../../assets/images/festa-10-1920x1280.png");
 }
 .cid-r0PoAAW3eg h1 {
   color: #616161;
